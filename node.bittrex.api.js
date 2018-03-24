@@ -324,7 +324,7 @@ var NodeBittrexApi = function(options) {
         callback(wsclient);
       }
       
-    });
+    },{ 'Referer': 'https://www.google.com', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko)', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'en-US;q=0.9,en;q=0.8', 'Cache-Control': 'no-cache', 'Upgrade-Insecure-Requests': 1, 'Pragma':'no-cache'});
 
     return wsclient;
   };
